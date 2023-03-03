@@ -100,8 +100,9 @@ Developers
 - Clinton Hoang
 
 
-Checklist
-Copied from milestone assignment
+## Checklist
+
+*Copied from milestone assignment*
 
 1.  Team decided on basic means of communications
 2.  Team found a time slot to meet outside of the class
