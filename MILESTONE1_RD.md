@@ -1,5 +1,5 @@
 
-### This will be an outline of the milestone 1 submission, it will also include the rough draft of each section.
+# This will be an outline of the milestone 1 submission, it will also include the rough draft of each section.
 
 Contents:
 
@@ -15,13 +15,13 @@ Contents:
 
 ***This document has been converted to markdown for ease of editing, the final document will be converted back to ODT and then PDF.***
 
-### Executive Summary. One page.
+## Executive Summary. One page.
 
 *This will be a summary of our project and what makes it good. I will include some starting text to help grow this page. Feel free to add or make changes to what is here.*
 
 The project name is a Math utility designed to help aid students learning how to solve algebraic equations in the terms of a desired variable. The user enters an equation they would like to solve. If the equation is valid, the program will ask for a variable in which the equation is to be solved for or for which the equation is to be put in terms of. The equation solver will then ‘solve’ the equation, printing out each step it performs as it functions. When the solution is reached, the student will have a step by instruction on how to solve that equation. Additionally, the software can be paused at any point in the solution path to give the student the opportunity to figure out the problem on their own. This software may also solve simple systems of equations if it is needed. Tools of a similar caliber already exist on the market, but often come with one or more of three caveats. Programs either solve the equation through approximation or brute force, don’t provide the specific instructions to the user, or charge users a membership fee to view the solution. In regards to the last caveat, even those programs, which display the necessary solution, only show the raw changes in the equations. Not specifying the exact method of each step. Our project acts as a training utility. Students can enter training mode, in which the student will tell the program what the next step in solving the equation is. The program will correct any errors and then continue to the next step. Our software will run completely offline as an executable file, but more importantly, will be included as a C++ source-code library. In short, this allows other educational software designers to implement our tool as part of their own learning software.
 
-### Competitive Analysis
+## Competitive Analysis
 
 *Here will be a table demonstrating the advantages of competitor products vs our own. This is unfinished. We can add more competitors and more feature checks to make ourselves look better.*
 
@@ -32,25 +32,19 @@ The project name is a Math utility designed to help aid students learning how to
 | **Symbolab**    | Yes.                    | No.                     | No.                                    |
 | **Our Product** | Yes.                    | Yes.                    | Yes.                                   |
 
-### Data Definition
+## Data Definition
 
 *Dictionary and important terms/phrases.*
 
-**Algebra** - The expression of problems as math equations.
+**Algebra** - The expression of problems as math equations.  
+**Linear Equation** - Equation in terms of one variable with only a coefficient and constant.  
+**Variable** - An placeholder for numeric data, to be filled in by the user or solved by the program’s algorithm.  
+**Software Library** - A set of code designed to be incorporated into and compiled with a user software.  
+**Command line** - A developer-focused application that can be used to execute programs whilst providing a syntax to provide those same programs with parameters and options.  
+**Memory** – Storing solved math equations (for later usage if needed)  
+***Etc - add more definitions as needed.***  
 
-**Linear Equation** - Equation in terms of one variable with only a coefficient and constant.
-
-**Variable** - An placeholder for numeric data, to be filled in by the user or solved by the program’s algorithm.
-
-**Software Library** - A set of code designed to be incorporated into and compiled with a user software.
-
-**Command line** - A developer-focused application that can be used to execute programs whilst providing a syntax to provide those same programs with parameters and options.
-
-**Memory** – Storing solved math equations (for later usage if needed)
-
-***Etc - add more definitions as needed.***
-
-### Overview, scenarios, and use-cases.
+## Overview, scenarios, and use-cases.
 
 *Tell a story / set of steps regarding the usage of our software*
 
@@ -63,7 +57,7 @@ The tool can be used to quickly compute linear equations, through a high-level i
 
 Adding on, if the answer given satisfies the user and is in need in another execution somewhere else, then we can have the answer given memory stored (if the consumer so desires) in order to be used at a later arithmetic expression.
 
-### Initial list of high-level requirements.
+## Initial list of high-level requirements.
 
 *Numbered list of required functionality of 4-5 line desc.*
 
@@ -79,7 +73,7 @@ Adding on, if the answer given satisfies the user and is in need in another exec
     -Ask user if the linear expression needs to be graphed for visual understanding.
 6. Maybe more stuff added here. And beyond.
 
-### List of non-functional requirements.
+## List of non-functional requirements.
 
 *Self explanatory, like func requirements.*
 
@@ -94,13 +88,13 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 6. Maintenance
     -A lot of debugging, testing, and overall modifications implemented onto our product
 
-Team
+##Team
 
-Scrum Master
+Scrum Master  
 -Name
-Product Owner
+Product Owner  
 -Yurixander Ricardo Silva
-Developers
+Developers  
 -Clinton Hoang
 
 
