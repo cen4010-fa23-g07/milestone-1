@@ -62,15 +62,15 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 *Numbered list of required functionality of 4-5 line desc.*
 
 1. Set usage functionality (linear equation, system of equations, etc)
-    -This will be performed by doing (). It will appear as () to the user. They will (). Etc.
+    - This will be performed by doing (). It will appear as () to the user. They will (). Etc.
 2. Enter equation.
-    -Done by typing equations and defining vars, performed by doing (), or by (). Includes the option of (). Autofill new equation option etc. etc.
+    - Done by typing equations and defining vars, performed by doing (), or by (). Includes the option of (). Autofill new equation option etc. etc.
 3. Solve mode.
-    -Solve fast, solve slow, against the computer, timer, etc. etc.
+    - Solve fast, solve slow, against the computer, timer, etc. etc.
 4. Memorize
-    -After solving, put the answer into memory for later usage or even collecting data.
+    - After solving, put the answer into memory for later usage or even collecting data.
 5. Plotting
-    -Ask user if the linear expression needs to be graphed for visual understanding.
+    - Ask user if the linear expression needs to be graphed for visual understanding.
 6. Maybe more stuff added here. And beyond.
 
 ## List of non-functional requirements.
@@ -78,24 +78,24 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 *Self explanatory, like func requirements.*
 
 1. Performance
-    -Fast must be fast
+    - Fast must be fast
 2. Library
-    -Usable as a library.
+    - Usable as a library.
 3. Desktop compatible
 4. 24/7 usage uptime
 5. Usability
-    -To be able to use with a relatively understandable interface.
+    - To be able to use with a relatively understandable interface.
 6. Maintenance
-    -A lot of debugging, testing, and overall modifications implemented onto our product
+    - A lot of debugging, testing, and overall modifications implemented onto our product
 
 ##Team
 
 Scrum Master  
--Name
+- Name
 Product Owner  
--Yurixander Ricardo Silva
+- Yurixander Ricardo Silva
 Developers  
--Clinton Hoang
+- Clinton Hoang
 
 
 Checklist
