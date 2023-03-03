@@ -37,11 +37,17 @@ The project name is a Math utility designed to help aid students learning how to
 *Dictionary and important terms/phrases.*
 
 **Algebra** - The expression of problems as math equations.
+
 **Linear Equation** - Equation in terms of one variable with only a coefficient and constant.
+
 **Variable** - An placeholder for numeric data, to be filled in by the user or solved by the program’s algorithm.
+
 **Software Library** - A set of code designed to be incorporated into and compiled with a user software.
+
 **Command line** - A developer-focused application that can be used to execute programs whilst providing a syntax to provide those same programs with parameters and options.
+
 **Memory** – Storing solved math equations (for later usage if needed)
+
 ***Etc - add more definitions as needed.***
 
 ### Overview, scenarios, and use-cases.
