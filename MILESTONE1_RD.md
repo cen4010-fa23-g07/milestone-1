@@ -54,12 +54,15 @@ Our product will do everything our competitors' products can do and more. All of
 
 *IE little jimmy jimmy used our software to get an A, Albanian software company uses our library to design an education software for their schools, etc. etc. Maybe some specific descriptions about ideal uses. Ie steps to use it (click this type that).*
 
-The tool can be used to quickly compute linear equations, through a high-level interface. Developers specifically can take advantage of this; by embedding it into the terminal as a command, it is easily and quickly accessible. Additionally, the code can also be used as a library: If a developer needs a simple and efficient library to compute and solve for linear equations, he or she can import the code onto their project(s), and make use of the simple API provided. There are two main ways in which the project can be used:
+
+
+
+Primary usage of our software will be through the user interface, where a student (our user, in this case) will use the program to learn the steps required to solve for linear equations. The prospective student will open up our software, and select the solving mode. Our student wishes to learn how to solve a linear equation. So, the student selects the linear equation mode, and enters the linear equation. If any errors were made, our software reminds the student to make a correction, and then  proceed. Once ready, the student can pick their desired operation mode. We suspect that the step mode will be very popular. The student clicks each step and reads very carefully. They sudy each step and make sure to understand how to solve their math equations with better confidence. Once the student feels ready, they can activate quiz mode, and then test themselves against the computer. If the student, teacher, or parent wants to see the progress they're making, the stats will always be saved.
+
+Additionally, the code can also be used as a library: If a developer needs a simple and efficient library to compute and solve for linear equations, he or she can import the code onto their project(s), and make use of the simple library provided. There are two main ways in which the project can be used:
 
 1. The developer makes use of it as a library: By importing the C++ code as a library to their project(s), developers can take advantage of the preexisting code written in this project. Using a simple and comprehensive API, they can proceed to use it to solve linear equations as an embedded system. After importing the library, the developer can have access to the methods and functions, which he or she can then invoke and compose to accomplish his or her goals.
 2. The program can be invoked from the command line: By executing a specific command on the command line, developers or consumers can quickly gain access to the tool. Using the interactive menu, the consumer can choose from a list of useful options and decide what operation they would like to perform, be it solving linear equations or creating a simple visual graph.
-
-Adding on, if the answer given satisfies the user and is in need in another execution somewhere else, then we can have the answer given memory stored (if the consumer so desires) in order to be used at a later arithmetic expression.
 
 ## Initial list of high-level requirements.
 
@@ -127,12 +130,12 @@ Developers
 
 *Copied from milestone assignment*
 
-1.  Team decided on basic means of communications
-2.  Team found a time slot to meet outside of the class
-3.  Front and back end team leads chosen
-4.  Github master chosen
-5.  Team ready and able to use the chosen back and front-end frameworks
-6.  Skills of each team member defined and known to all
-7.  Team  lead  ensured  that  all  team  members  read  the  final  M1  and agree/understand it  before submission
+1.  Team decided on basic means of communications: **Done.**
+2.  Team found a time slot to meet outside of the class: **Done.**
+3.  Front and back end team leads chosen: **Done.**
+4.  Github master chosen: **Done.**
+5.  Team ready and able to use the chosen back and front-end frameworks: **Done.**
+6.  Skills of each team member defined and known to all: **Done.**
+7.  Team  lead  ensured  that  all  team  members  read  the  final  M1  and agree/understand it  before submission: **Done.**
 
  
