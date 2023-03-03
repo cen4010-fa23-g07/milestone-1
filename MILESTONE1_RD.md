@@ -26,12 +26,15 @@ The project name is a Math utility designed to help aid students learning how to
 *Here will be a table demonstrating the advantages of competitor products vs our own. This is unfinished. We can add more competitors and more feature checks to make ourselves look better.*
 
 
-|                 | Step by Step Solutions? | Can it be used offline? | Can it be worked into other softwares? |
-| --------------- | ----------------------- | ----------------------- | -------------------------------------- |
-| **Keisan**      | No.                     | No.                     | No.                                    |
-| **Wolfram**     | Only with Premium.      | Yes.                    | Yes.                                   |
-| **Symbolab**    | Yes.                    | No.                     | No.                                    |
-| **Our Product** | Yes.                    | Yes.                    | Yes.                                   |
+|                 | Step by Step Solutions? | Offline use? | Software integration? | Pausable solutions? | Guided learning? |
+| --------------- | ----------------------- | ------------ | --------------------- | ------------------- | ---------------- |
+| **Keisan**      | No.                     | No.          | No.                   | No.                 | No.              |
+| **Wolfram**     | Only with Premium.      | Yes.         | Yes.                  | No.                 | No.              |
+| **Symbolab**    | Yes.                    | No.          | No.                   | No.                 | No.              |
+| **Our Product** | Yes.                    | Yes.         | Yes.                  | Yes.                | Yes.             |
+
+Our product will do everything our competitors' products can do and more. All of these products can solve equations step-by-step, but ours gives users reasoning for which steps have been taken, as well as the ability to pause during solving. The ability to pause allows users to finish the rest of the problem on their own, even if they were stuck on one part. Our product will also feature easy plotting -- all that is needed to do is save the equation and use the plotting functionality, while our competitors' products force users to go to another page. Our product also includes software integration, meaning that it can be included in other programs if desired.
+
 
 ## Data Definition
 
@@ -101,6 +104,11 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 6. Maintenance
     - A lot of debugging, testing, and overall modifications implemented onto our product
 
+## High-level system architecture
+
+**Languages:** C++  
+**Tools:** g++, Visual Studio  
+
 ## Team
 
 Scrum Master  
@@ -111,6 +119,7 @@ Product Owner
 
 Developers  
 - Clinton Hoang
+- Lauren Morlock
 - Zee Fisher
 
 
