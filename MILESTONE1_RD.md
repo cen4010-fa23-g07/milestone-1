@@ -26,13 +26,12 @@ The project name is a Math utility designed to help aid students learning how to
 *Here will be a table demonstrating the advantages of competitor products vs our own. This is unfinished. We can add more competitors and more feature checks to make ourselves look better.*
 
 
-|                 | Step by Step Solutions? | Offline use? | Software integration? | Easy plotting? | Ability to pause? | Specific instructions? |
-| --------------- | ----------------------- | ------------ | --------------------- | -------------- | ----------------- | ---------------------- |
-| **Wolfram**     | Only with Premium.      | Yes.         | Yes.                  | No.            | No.               | No.                    |
-| **Symbolab**    | Yes.                    | No.          | No.                   | No.            | No.               | Yes.                   |
-| **Our Product** | Yes.                    | Yes.         | Yes.                  | Yes.           | Yes.              | Yes.                   |
-
-Our product will do everything our competitors' products can do and more. All of these products can solve equations step-by-step, but ours gives users reasoning for which steps have been taken, as well as the ability to pause during solving. The ability to pause allows users to finish the rest of the problem on their own, even if they were stuck on one part. Our product will also feature easy plotting -- all that is needed to do is save the equation and use the plotting functionality, while our competitors' products force users to go to another page. Our product also includes software integration, meaning that it can be included in other programs if desired.
+|                 | Step by Step Solutions? | Can it be used offline? | Can it be worked into other softwares? |
+| --------------- | ----------------------- | ----------------------- | -------------------------------------- |
+| **Keisan**      | No.                     | No.                     | No.                                    |
+| **Wolfram**     | Only with Premium.      | Yes.                    | Yes.                                   |
+| **Symbolab**    | Yes.                    | No.                     | No.                                    |
+| **Our Product** | Yes.                    | Yes.                    | Yes.                                   |
 
 ## Data Definition
 
@@ -64,16 +63,28 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 *Numbered list of required functionality of 4-5 line desc.*
 
 1. Set usage functionality (linear equation, system of equations, etc)
-    - This will be performed by doing (). It will appear as () to the user. They will (). Etc.
+    - Set the program functionality for different types of equations.
+    - Base options will include linear equations and systems of equations.
+    - Chosen via a selection menu, default will be linear equations.
+    - Future functionality may include limits, derivatives, and integrals.
 2. Enter equation.
-    - Done by typing equations and defining vars, performed by doing (), or by (). Includes the option of (). Autofill new equation option etc. etc.
+    - User will type the equation using variables, one equality operator, and various required operator symbols.
+    - In system of equations, the user will enter multiple equations.
+    - Once are equations are valid, the user may select a solve mode.
 3. Solve mode.
-    - Solve fast, solve slow, against the computer, timer, etc. etc.
-4. Memorize
-    - After solving, put the answer into memory for later usage or even collecting data.
+    - Several solve modes are included, and can be chosen from by the user.
+    - Instant mode: Once activated, the entire solution and required steps are revealed to the user.
+    - Step mode: Reveals one step of the solution to the user after each activation.
+    - Quiz mode: Prompts the user for the next step towards the solution, and checks for accuracy.
+4. History
+    - Each equation is stored in the history, for the user to revisit.
+    - Over time old solutions are culled.
+    - User accuracy in the quiz mode will be saved to user's stats. This can be cleared at any time.
 5. Plotting
     - Ask user if the linear expression needs to be graphed for visual understanding.
-6. Maybe more stuff added here. And beyond.
+6. Source-code Library
+    - All essential functions of the software will be avaliable as a C++ source-code library.
+    - Usage of all primary functions, including the usage type, equation solving, and history/retreval will be avaliable.
 
 ## List of non-functional requirements.
 
@@ -90,11 +101,6 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 6. Maintenance
     - A lot of debugging, testing, and overall modifications implemented onto our product
 
-## High-level system architecture
-**Languages:** C++
-**Tools:** 
-**Frameworks:** 
-
 ## Team
 
 Scrum Master  
@@ -105,7 +111,7 @@ Product Owner
 
 Developers  
 - Clinton Hoang
-- Lauren Morlock
+- Zee Fisher
 
 
 ## Checklist
