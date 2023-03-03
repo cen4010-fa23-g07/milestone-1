@@ -88,7 +88,7 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 6. Maintenance
     - A lot of debugging, testing, and overall modifications implemented onto our product
 
-##Team
+## Team
 
 Scrum Master  
 - Name
