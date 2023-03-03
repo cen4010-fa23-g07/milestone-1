@@ -92,8 +92,10 @@ Adding on, if the answer given satisfies the user and is in need in another exec
 
 Scrum Master  
 - Name
+
 Product Owner  
 - Yurixander Ricardo Silva
+
 Developers  
 - Clinton Hoang
 
