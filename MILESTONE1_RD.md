@@ -115,7 +115,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 ## Team
 
 Scrum Master  
-- Name
+- Dante Ricketts
 
 Product Owner  
 - Yurixander Ricardo Silva
