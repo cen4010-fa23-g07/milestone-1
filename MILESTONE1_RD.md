@@ -26,14 +26,14 @@ The project name is a Math utility designed to help aid students learning how to
 *Here will be a table demonstrating the advantages of competitor products vs our own. This is unfinished. We can add more competitors and more feature checks to make ourselves look better.*
 
 
-|                 | Step by Step Solutions? | Offline use? | Software integration? | Pausable solutions? | Guided learning? |
-| --------------- | ----------------------- | ------------ | --------------------- | ------------------- | ---------------- |
-| **Keisan**      | No.                     | No.          | No.                   | No.                 | No.              |
-| **Wolfram**     | Only with Premium.      | Yes.         | Yes.                  | No.                 | No.              |
-| **Symbolab**    | Yes.                    | No.          | No.                   | No.                 | No.              |
-| **Our Product** | Yes.                    | Yes.         | Yes.                  | Yes.                | Yes.             |
+|                 | Step by Step Solutions? | Offline use? | Software integration? | Pausable solutions? | Guided learning? | Practice mode? |
+| --------------- | ----------------------- | ------------ | --------------------- | ------------------- | ---------------- | -------------- |
+| **Keisan**      | No.                     | No.          | No.                   | No.                 | No.              | No.            |
+| **Wolfram**     | Only with Premium.      | Yes.         | Yes.                  | No.                 | No.              | No.            |
+| **Symbolab**    | Yes.                    | No.          | No.                   | No.                 | No.              | No.            |
+| **Our Product** | Yes.                    | Yes.         | Yes.                  | Yes.                | Yes.             | No.            |
 
-Our product will do everything our competitors' products can do and more. All of these products can solve equations step-by-step, but ours gives users reasoning for which steps have been taken, as well as the ability to pause during solving. The ability to pause allows users to finish the rest of the problem on their own, even if they were stuck on one part. Our product will also feature easy plotting -- all that is needed to do is save the equation and use the plotting functionality, while our competitors' products force users to go to another page. Our product also includes software integration, meaning that it can be included in other programs if desired.
+Our product will do everything our competitors' products can do and more. All of these products can solve equations step-by-step, but ours gives users reasoning for which steps have been taken, as well as the ability to pause during solving. The ability to pause allows users to finish the rest of the problem on their own, even if they were stuck on one part. Users can also engage practice mode, where the application generates a linear equation, and then the user enters their answer to see if they were correct. Our product will also feature easy plotting -- all that is needed to do is save the equation and use the plotting functionality, while our competitors' products force users to go to another page. Our product also includes software integration, meaning that it can be included in other programs if desired.
 
 
 ## Data Definition
@@ -45,7 +45,9 @@ Our product will do everything our competitors' products can do and more. All of
 **Variable** - An placeholder for numeric data, to be filled in by the user or solved by the program’s algorithm.  
 **Software Library** - A set of code designed to be incorporated into and compiled with a user software.  
 **Command line** - A developer-focused application that can be used to execute programs whilst providing a syntax to provide those same programs with parameters and options.  
-**Memory** – Storing solved math equations (for later usage if needed)  
+**Memory** – Storing solved math equations (for later usage if needed).
+**Consumer** - Actor which uses the application to solve or plot linear equations.
+**Developer** - Actor which integrates the application library into their own program.
 ***Etc - add more definitions as needed.***  
 
 ## Overview, scenarios, and use-cases.
@@ -62,7 +64,10 @@ Primary usage of our software will be through the user interface, where a studen
 Additionally, the code can also be used as a library: If a developer needs a simple and efficient library to compute and solve for linear equations, he or she can import the code onto their project(s), and make use of the simple library provided. There are two main ways in which the project can be used:
 
 1. The developer makes use of it as a library: By importing the C++ code as a library to their project(s), developers can take advantage of the preexisting code written in this project. Using a simple and comprehensive API, they can proceed to use it to solve linear equations as an embedded system. After importing the library, the developer can have access to the methods and functions, which he or she can then invoke and compose to accomplish his or her goals.
+    * A school system wishes to set up lab time for their students to practice math problems, without giving them access to the internet. The developer they hire to make this application simply needs to include the library for our product into their application, rather than developing new functionality for linear equation solving.
 2. The program can be invoked from the command line: By executing a specific command on the command line, developers or consumers can quickly gain access to the tool. Using the interactive menu, the consumer can choose from a list of useful options and decide what operation they would like to perform, be it solving linear equations or creating a simple visual graph.
+    * A student wishes to get better at solving linear equations. The student can input their equations and then enter training mode, allowing them to solve up to a certain point if they get stuck, and then continue the equation on their own. The student can also use practice mode to get new problems, and then check their answers.
+    * An engineer has solved two systems of linear equations and wishes to plot them for further analysis. The engineer only needs to save the systems after solving, and then will be able to use the graphing functionality to see them for comparison.
 
 ## Initial list of high-level requirements.
 
@@ -82,6 +87,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     - Instant mode: Once activated, the entire solution and required steps are revealed to the user.
     - Step mode: Reveals one step of the solution to the user after each activation.
     - Quiz mode: Prompts the user for the next step towards the solution, and checks for accuracy.
+    - Practice mode: Generates random linear equations for the user to solve, then allows them to check their answer.
 4. History
     - Each equation is stored in the history, for the user to revisit.
     - Over time old solutions are culled.
@@ -106,6 +112,8 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     - To be able to use with a relatively understandable interface.
 6. Maintenance
     - A lot of debugging, testing, and overall modifications implemented onto our product
+7. Fault tolerance
+    - Application will inform user if something within the system has failed.
 
 ## High-level system architecture
 
