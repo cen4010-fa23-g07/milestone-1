@@ -1,17 +1,17 @@
 
 # Milestone 1 Project "Clever Calc"
 
-## Table of contents:
+## Table of contents
 
-1. Executive Summary
-2. Competitive Analysis
-3. Data Definition
-4. Overview, Scenarios, Use-Cases
-5. Initial List of High Level Functional Requirements
-6. List of Non-Functional Requirements
-7. High Level System Architecture
-8. Team
-9. Checklist
+1. [Executive Summary](#executive-summary)
+2. [Competitive Analysis](#competitive-analysis)
+3. [Data Definition](#data-definition)
+4. [Overview, Scenarios, Use-Cases](#overview-scenarios-and-use-cases)
+5. [Initial List of High Level Functional Requirements](initial-list-of-high-level-requirements)
+6. [List of Non-Functional Requirements](#list-of-non-functional-requirements)
+7. [High Level System Architecture](#high-level-system-architecture)
+8. [Team](#team)
+9. [Checklist](#checklist)
 
 ## Executive Summary
 
