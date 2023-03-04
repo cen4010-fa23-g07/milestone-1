@@ -105,12 +105,12 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     - All essential functions of the software will be avaliable as a C++ source-code library.
     - Usage of all primary functions, including the usage type, equation solving, and history/retreval will be avaliable.
 7. Non Registered Member
-    -User is given the option to register for an acccount which would allow for **4.History** to be possible.
-    -User is prompted to input a valid email address and password **(Must meet critera of at least 1 capital letter,symbols,numbers)**.
-    -User may also have the option to register via google account.
+    - User is given the option to register for an acccount which would allow for **4.History** to be possible.
+    - User is prompted to input a valid email address and password **(Must meet critera of at least 1 capital letter,symbols,numbers)**.
+    - User may also have the option to register via google account.
 8. Registered Member
-    -User prompted to enter login credentials **(email address and password)**.
-    -Given access to **4.History**
+    - User prompted to enter login credentials **(email address and password)**.
+    - Given access to **4.History**
 
 
 
