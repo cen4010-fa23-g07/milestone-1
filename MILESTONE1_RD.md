@@ -34,7 +34,7 @@ The project name is Clever Calc, a Math utility designed to help aid students le
 | **Mathway**     | Only with Premium.      | Yes.         | No.                   | No.                 | No.              |
 | **Clever Calc** | Yes.                    | Yes.         | Yes.                  | Yes.                | Yes.             |
 
-Our product will do everything our competitors' products can do and more. All of these products can solve equations step-by-step, but ours gives users reasoning for which steps have been taken, as well as the ability to pause during solving. The ability to pause allows users to finish the rest of the problem on their own, even if they were stuck on one part. Our product will also feature easy plotting -- all that is needed to do is save the equation and use the plotting functionality, while our competitors' products force users to go to another page. Our product also includes software integration, meaning that it can be included in other programs if desired.
+Our product "Clever Calc" will do everything our competitors' products can do and more. All of these products can solve equations step-by-step, but ours gives users reasoning for which steps have been taken, as well as the ability to pause during solving. The ability to pause allows users to finish the rest of the problem on their own, even if they were stuck on one part. Our product will also feature easy plotting -- all that is needed to do is save the equation and use the plotting functionality, while our competitors' products force users to go to another page. Our product also includes software integration, meaning that it can be included in other programs if desired.
 
 
 ## Data Definition
@@ -65,6 +65,8 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 1. The developer makes use of it as a library: By importing the C++ code as a library to their project(s), developers can take advantage of the preexisting code written in this project. Using a simple and comprehensive API, they can proceed to use it to solve linear equations as an embedded system. After importing the library, the developer can have access to the methods and functions, which he or she can then invoke and compose to accomplish his or her goals.
 2. The program can be invoked from the command line: By executing a specific command on the command line, developers or consumers can quickly gain access to the tool. Using the interactive menu, the consumer can choose from a list of useful options and decide what operation they would like to perform, be it solving linear equations or creating a simple visual graph.
 
+
+
 ## Initial list of high-level requirements.
 
 *Numbered list of required functionality of 4-5 line desc.*
@@ -92,6 +94,9 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 6. Source-code Library
     - All essential functions of the software will be avaliable as a C++ source-code library.
     - Usage of all primary functions, including the usage type, equation solving, and history/retreval will be avaliable.
+
+## Non-Member
+    i. The system prompts the user to create which allow for the user to save solutions 
 
 ## List of non-functional requirements.
 
