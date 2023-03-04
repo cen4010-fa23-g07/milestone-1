@@ -50,8 +50,8 @@ Our product will do everything our competitors' products can do and more. All of
 **Developer** - Actor which integrates the application library into their own program.  
 **Plot** - To plot points on a graph to display a linear equation.  
 **Account** - Storing previous work or suggest user's preference.  
-**Support** - Actor which helps a consumer in need of usage towards the program.
-**Favorable** - Suggest common problems to users after many similar equations presented.
+**Support** - Actor which helps a consumer in need of usage towards the program.  
+**Favorable** - Suggest common problems to users after many similar equations presented.  
 
 ***Etc - add more definitions as needed.***  
 
