@@ -48,6 +48,8 @@ Our product will do everything our competitors' products can do and more. All of
 **Memory** – Storing solved math equations (for later usage if needed).
 **Consumer** - Actor which uses the application to solve or plot linear equations.
 **Developer** - Actor which integrates the application library into their own program.
+**Plot** - To plot points on a graph to display a linear equation.
+
 ***Etc - add more definitions as needed.***  
 
 ## Overview, scenarios, and use-cases.
