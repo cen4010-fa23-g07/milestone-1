@@ -121,7 +121,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 **Languages:** C++, Python  
 **Tools:** g++, Visual Studio/Visual Studio Code, Git
 
-The tooling is straightforward and traditional. C++ will be the main programming language employed for the implementation of the project, with Python being used for more specific purposes such as the Graphing feature, whereas C++ will be used for the general purpose programming of the project.
+The tooling is straightforward and traditional. C++ will be the main programming language employed for the implementation of the project, with Python being used for more specific purposes such as the Graphing feature, whereas C++ will be used for the general purpose programming of the project. The C++ version used would be a modern one, C++17 or above to make use of the latest features provided by the C++ standard and its compilers. No build tool (ex. CMake) will be used for the project, since the project structure will be relatively simple and straightforward.
 
 ## Team
 
@@ -137,8 +137,6 @@ Developers
 - Zee Fisher
 
 ## Checklist
-
-*Copied from milestone assignment*
 
 1.  Team decided on basic means of communications: **Done.**
 2.  Team found a time slot to meet outside of the class: **Done.**
