@@ -140,7 +140,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 
 ## High-level system architecture
 
-**Languages:** C++  
+**Languages:** C++, Python  
 **Tools:** g++, Visual Studio  
 
 ## Team
