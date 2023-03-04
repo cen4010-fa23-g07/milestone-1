@@ -48,10 +48,11 @@ Our product will do everything our competitors' products can do and more. All of
 **Memory** – Storing solved math equations (for later usage if needed).  
 **Consumer** - Actor which uses the application to solve or plot linear equations.  
 **Developer** - Actor which integrates the application library into their own program.  
-**Plot** - To plot points on a graph to display a linear equation.  
+**Plot** - To plot points on a graph to display a linear equation being graphed.  
 **Account** - Storing previous work or suggest user's preference.  
 **Support** - Actor which helps a consumer in need of usage towards the program.  
 **Favorable** - Suggest common problems to users after many similar equations presented.  
+**Solve/Explain** - To move on to the next step of the equation with explaination as to why it is.  
 
 ***Etc - add more definitions as needed.***  
 
@@ -73,7 +74,8 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 2. The program can be invoked from the command line: By executing a specific command on the command line, developers or consumers can quickly gain access to the tool. Using the interactive menu, the consumer can choose from a list of useful options and decide what operation they would like to perform, be it solving linear equations or creating a simple visual graph.
     * A student wishes to get better at solving linear equations. The student can input their equations and then enter training mode, allowing them to solve up to a certain point if they get stuck, and then continue the equation on their own. The student can also use practice mode to get new problems, and then check their answers.
     * An engineer has solved two systems of linear equations and wishes to plot them for further analysis. The engineer only needs to save the systems after solving, and then will be able to use the graphing functionality to see them for comparison.
-
+3. While in use of the program, consumer can be prompted if they would like a similar problem presented to them in a different linear equation format then what the consumer presented. This way, the student can excel on a given topic of mathematics for them to understand on a deeper level.
+    * A student wanting to practice more problems then the one assigned to better achieve full understanding of a certain type of question.
 
 
 ## Initial list of high-level requirements.
@@ -111,7 +113,9 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 8. Registered Member
     - User prompted to enter login credentials **(email address and password)**.
     - Given access to **4.History**
-
+9. More Example Mode
+    - User prompted if they would like more similar questions to their functionality.
+    - Randomizies numbers from users first input onto next question.
 
 
     
