@@ -7,7 +7,7 @@
 2. [Competitive Analysis](#competitive-analysis)
 3. [Data Definition](#data-definition)
 4. [Overview, Scenarios, Use-Cases](#overview-scenarios-and-use-cases)
-5. [Initial List of High-Level Functional Requirements](initial-list-of-high-level-requirements)
+5. [Initial List of High-Level Functional Requirements](#initial-list-of-high-level-requirements)
 6. [List of Non-Functional Requirements](#list-of-non-functional-requirements)
 7. [High-Level System Architecture](#high-level-system-architecture)
 8. [Team](#team)
