@@ -1,7 +1,7 @@
 
-# This will be an outline of the milestone 1 submission, it will also include the rough draft of each section.
+# Milestone 1 Project Clever Calc
 
-Contents:
+## Table of contents:
 
 1. Executive Summary.
 2. Competitive Analysis
