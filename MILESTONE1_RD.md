@@ -45,10 +45,13 @@ Our product will do everything our competitors' products can do and more. All of
 **Variable** - An placeholder for numeric data, to be filled in by the user or solved by the program’s algorithm.  
 **Software Library** - A set of code designed to be incorporated into and compiled with a user software.  
 **Command line** - A developer-focused application that can be used to execute programs whilst providing a syntax to provide those same programs with parameters and options.  
-**Memory** – Storing solved math equations (for later usage if needed).
-**Consumer** - Actor which uses the application to solve or plot linear equations.
-**Developer** - Actor which integrates the application library into their own program.
-**Plot** - To plot points on a graph to display a linear equation.
+**Memory** – Storing solved math equations (for later usage if needed).  
+**Consumer** - Actor which uses the application to solve or plot linear equations.  
+**Developer** - Actor which integrates the application library into their own program.  
+**Plot** - To plot points on a graph to display a linear equation.  
+**Account** - Storing previous work or suggest user's preference.  
+**Support** - Actor which helps a consumer in need of usage towards the program.
+**Favorable** - Suggest common problems to users after many similar equations presented.
 
 ***Etc - add more definitions as needed.***  
 
