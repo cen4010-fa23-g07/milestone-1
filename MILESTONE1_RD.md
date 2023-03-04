@@ -64,7 +64,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 
 1. The developer makes use of it as a library: By importing the C++ code as a library to their project(s), developers can take advantage of the preexisting code written in this project. Using a simple and comprehensive API, they can proceed to use it to solve linear equations as an embedded system. After importing the library, the developer can have access to the methods and functions, which he or she can then invoke and compose to accomplish his or her goals.
 2. The program can be invoked from the command line: By executing a specific command on the command line, developers or consumers can quickly gain access to the tool. Using the interactive menu, the consumer can choose from a list of useful options and decide what operation they would like to perform, be it solving linear equations or creating a simple visual graph.
-
+3. Non-Member
 
 
 ## Initial list of high-level requirements.
@@ -94,9 +94,15 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 6. Source-code Library
     - All essential functions of the software will be avaliable as a C++ source-code library.
     - Usage of all primary functions, including the usage type, equation solving, and history/retreval will be avaliable.
+7. Non Registered Member
+    -User is given the option to register for an acccount which would allow for **4.History** to be possible.
+    -User is prompted to input a valid email address and password **(Must meet critera of 1 capital letter,symbols,numbers)**.
+    -User may also have the option to register via google account.
 
-## Non-Member
-    i. The system prompts the user to create which allow for the user to save solutions 
+
+
+    
+    
 
 ## List of non-functional requirements.
 
