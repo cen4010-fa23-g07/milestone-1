@@ -1,30 +1,23 @@
 
-# Milestone 1 Project Clever Calc
+# Milestone 1 Project "Clever Calc"
 
 ## Table of contents:
 
-1. Executive Summary.
+1. Executive Summary
 2. Competitive Analysis
 3. Data Definition
-4. Overview, Scenarios, Use-Cases.
-5. Initial List of High Level Functional Requirements.
-6. List of Non-Functional Requirements.
+4. Overview, Scenarios, Use-Cases
+5. Initial List of High Level Functional Requirements
+6. List of Non-Functional Requirements
 7. High Level System Architecture
 8. Team
 9. Checklist
 
-***This document has been converted to markdown for ease of editing, the final document will be converted back to ODT and then PDF.***
-
-## Executive Summary. One page.
-
-*This will be a summary of our project and what makes it good. I will include some starting text to help grow this page. Feel free to add or make changes to what is here.*
+## Executive Summary
 
 The project name is Clever Calc, a Math utility designed to help aid students learning how to solve algebraic equations in the terms of a desired variable. The user enters an equation they would like to solve. If the equation is valid, the program will ask for a variable in which the equation is to be solved for or for which the equation is to be put in terms of. The equation solver will then ‘solve’ the equation, printing out each step it performs as it functions. When the solution is reached, the student will have a step by step instruction on how to solve that equation. Additionally, the software can be paused at any point in the solution path to give the student the opportunity to figure out the problem on their own. This software may also solve simple systems of equations if it is needed. Tools of a similar caliber already exist on the market, but often come with one or more of three caveats. Programs either solve the equation through approximation or brute force, don’t provide the specific instructions to the user, or charge users a membership fee to view the solution. In regards to the last caveat, even those programs, which display the necessary solution, only show the raw changes in the equations. Not specifying the exact method of each step. Our project acts as a training utility. Students can enter training mode, in which the student will tell the program what the next step in solving the equation is. The program will correct any errors and then continue to the next step. Our software will run completely offline as an executable file, but more importantly, will be included as a C++ source-code library. In short, this allows other educational software designers to implement our tool as part of their own learning software.
 
 ## Competitive Analysis
-
-*Here will be a table demonstrating the advantages of competitor products vs our own. This is unfinished. We can add more competitors and more feature checks to make ourselves look better.*
-
 
 |                 | Step by Step Solutions? | Offline use? | Software integration? | Pausable solutions? | Guided learning? | Practice mode? |
 | --------------- | ----------------------- | ------------ | --------------------- | ------------------- | ---------------- | -------------- |
@@ -35,10 +28,7 @@ The project name is Clever Calc, a Math utility designed to help aid students le
 
 Our product will do everything our competitors' products can do and more. All of these products can solve equations step-by-step, but ours gives users reasoning for which steps have been taken, as well as the ability to pause during solving. The ability to pause allows users to finish the rest of the problem on their own, even if they were stuck on one part. Users can also engage practice mode, where the application generates a linear equation, and then the user enters their answer to see if they were correct. Our product will also feature easy plotting -- all that is needed to do is save the equation and use the plotting functionality, while our competitors' products force users to go to another page. Our product also includes software integration, meaning that it can be included in other programs if desired.
 
-
-## Data Definition
-
-*Dictionary and important terms/phrases.*
+## Data definition
 
 **Algebra** - The expression of problems as math equations.  
 **Linear Equation** - Equation in terms of one variable with only a coefficient and constant.  
@@ -54,16 +44,7 @@ Our product will do everything our competitors' products can do and more. All of
 **Favorable** - Suggest common problems to users after many similar equations presented.  
 **Solve/Explain** - To move on to the next step of the equation with explaination as to why it is.  
 
-***Etc - add more definitions as needed.***  
-
-## Overview, scenarios, and use-cases.
-
-*Tell a story / set of steps regarding the usage of our software*
-
-*IE little jimmy jimmy used our software to get an A, Albanian software company uses our library to design an education software for their schools, etc. etc. Maybe some specific descriptions about ideal uses. Ie steps to use it (click this type that).*
-
-
-
+## Overview, scenarios, and use-cases
 
 Primary usage of our software will be through the user interface, where a student (our user, in this case) will use the program to learn the steps required to solve for linear equations. The prospective student will open up our software, and select the solving mode. Our student wishes to learn how to solve a linear equation. So, the student selects the linear equation mode, and enters the linear equation. If any errors were made, our software reminds the student to make a correction, and then  proceed. Once ready, the student can pick their desired operation mode. We suspect that the step mode will be very popular. The student clicks each step and reads very carefully. They sudy each step and make sure to understand how to solve their math equations with better confidence. Once the student feels ready, they can activate quiz mode, and then test themselves against the computer. If the student, teacher, or parent wants to see the progress they're making, the stats will always be saved.
 
@@ -78,9 +59,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     * A student wanting to practice more problems then the one assigned to better achieve full understanding of a certain type of question.
 
 
-## Initial list of high-level requirements.
-
-*Numbered list of required functionality of 4-5 line desc.*
+## Initial list of high-level requirements
 
 1. Set usage functionality (linear equation, system of equations, etc)
     - Set the program functionality for different types of equations.
@@ -117,31 +96,32 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     - User prompted if they would like more similar questions to their functionality.
     - Randomizies numbers from users first input onto next question.
 
-
-    
-    
-
 ## List of non-functional requirements.
 
-*Self explanatory, like func requirements.*
-
 1. Performance
-    - Fast must be fast
+    - Must be fast and demonstrate consistent performance.
+    - Usage of appropriate Data structures and algorithms where needed.
 2. Library
-    - Usable as a library.
+    - Importable and usable as a C++ library.
 3. Desktop compatible
 4. 24/7 usage uptime
 5. Usability
     - To be able to use with a relatively understandable interface.
+    - Should be simple and straightforward to understand.
+    - Should produce comprehensive results that are easy to digest.
 6. Maintenance
-    - A lot of debugging, testing, and overall modifications implemented onto our product
+    - A lot of debugging, testing, and overall modifications implemented onto our product.
+    - Usage of best code practices.
 7. Fault tolerance
     - Application will inform user if something within the system has failed.
+    - The application should not cause undefined behavior under any user input.
 
 ## High-level system architecture
 
 **Languages:** C++, Python  
-**Tools:** g++, Visual Studio  
+**Tools:** g++, Visual Studio/Visual Studio Code, Git
+
+The tooling is straightforward and traditional. C++ will be the main programming language employed for the implementation of the project, with Python being used for more specific purposes such as the Graphing feature, whereas C++ will be used for the general purpose programming of the project.
 
 ## Team
 
@@ -155,7 +135,6 @@ Developers
 - Clinton Hoang
 - Lauren Morlock
 - Zee Fisher
-
 
 ## Checklist
 
