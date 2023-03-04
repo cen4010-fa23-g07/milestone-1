@@ -19,7 +19,7 @@ Contents:
 
 *This will be a summary of our project and what makes it good. I will include some starting text to help grow this page. Feel free to add or make changes to what is here.*
 
-The project name is a Math utility designed to help aid students learning how to solve algebraic equations in the terms of a desired variable. The user enters an equation they would like to solve. If the equation is valid, the program will ask for a variable in which the equation is to be solved for or for which the equation is to be put in terms of. The equation solver will then ‘solve’ the equation, printing out each step it performs as it functions. When the solution is reached, the student will have a step by instruction on how to solve that equation. Additionally, the software can be paused at any point in the solution path to give the student the opportunity to figure out the problem on their own. This software may also solve simple systems of equations if it is needed. Tools of a similar caliber already exist on the market, but often come with one or more of three caveats. Programs either solve the equation through approximation or brute force, don’t provide the specific instructions to the user, or charge users a membership fee to view the solution. In regards to the last caveat, even those programs, which display the necessary solution, only show the raw changes in the equations. Not specifying the exact method of each step. Our project acts as a training utility. Students can enter training mode, in which the student will tell the program what the next step in solving the equation is. The program will correct any errors and then continue to the next step. Our software will run completely offline as an executable file, but more importantly, will be included as a C++ source-code library. In short, this allows other educational software designers to implement our tool as part of their own learning software.
+The project name is Clever Calc, a Math utility designed to help aid students learning how to solve algebraic equations in the terms of a desired variable. The user enters an equation they would like to solve. If the equation is valid, the program will ask for a variable in which the equation is to be solved for or for which the equation is to be put in terms of. The equation solver will then ‘solve’ the equation, printing out each step it performs as it functions. When the solution is reached, the student will have a step by step instruction on how to solve that equation. Additionally, the software can be paused at any point in the solution path to give the student the opportunity to figure out the problem on their own. This software may also solve simple systems of equations if it is needed. Tools of a similar caliber already exist on the market, but often come with one or more of three caveats. Programs either solve the equation through approximation or brute force, don’t provide the specific instructions to the user, or charge users a membership fee to view the solution. In regards to the last caveat, even those programs, which display the necessary solution, only show the raw changes in the equations. Not specifying the exact method of each step. Our project acts as a training utility. Students can enter training mode, in which the student will tell the program what the next step in solving the equation is. The program will correct any errors and then continue to the next step. Our software will run completely offline as an executable file, but more importantly, will be included as a C++ source-code library. In short, this allows other educational software designers to implement our tool as part of their own learning software.
 
 ## Competitive Analysis
 
@@ -74,6 +74,8 @@ Additionally, the code can also be used as a library: If a developer needs a sim
     * A student wishes to get better at solving linear equations. The student can input their equations and then enter training mode, allowing them to solve up to a certain point if they get stuck, and then continue the equation on their own. The student can also use practice mode to get new problems, and then check their answers.
     * An engineer has solved two systems of linear equations and wishes to plot them for further analysis. The engineer only needs to save the systems after solving, and then will be able to use the graphing functionality to see them for comparison.
 
+
+
 ## Initial list of high-level requirements.
 
 *Numbered list of required functionality of 4-5 line desc.*
@@ -102,6 +104,18 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 6. Source-code Library
     - All essential functions of the software will be avaliable as a C++ source-code library.
     - Usage of all primary functions, including the usage type, equation solving, and history/retreval will be avaliable.
+7. Non Registered Member
+    -User is given the option to register for an acccount which would allow for **4.History** to be possible.
+    -User is prompted to input a valid email address and password **(Must meet critera of at least 1 capital letter,symbols,numbers)**.
+    -User may also have the option to register via google account.
+8. Registered Member
+    -User prompted to enter login credentials **(email address and password)**.
+    -Given access to **4.History**
+
+
+
+    
+    
 
 ## List of non-functional requirements.
 
@@ -128,7 +142,7 @@ Additionally, the code can also be used as a library: If a developer needs a sim
 ## Team
 
 Scrum Master  
-- Name
+- Dante Ricketts
 
 Product Owner  
 - Yurixander Ricardo Silva
